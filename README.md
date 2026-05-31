@@ -16,3 +16,5 @@ Install instructions are:
 5. sudo apt install libwxgtk3.2-dev wx-common
 
 Create the example program in the terminal with:``g++ -O2 wxBaseTemplateRev3.cpp -o wxBaseTemplateRev3 `wx-config --cxxflags --libs` -lgpiod -lgpiodcxx``
+
+The program can run manually with the following command: ./wxBaseTemplateRev3
