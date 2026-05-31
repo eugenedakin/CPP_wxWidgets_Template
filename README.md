@@ -12,7 +12,7 @@ Install instructions are:
 1. install Raspberry Pi OS (64-bit)
 2. Open a terminal and type the following commands:
 3. sudo apt update && sudo apt upgrade -y
-4. sudo apt install libgpio-dev gpiod
+4. sudo apt install liblgpio-dev gpiod
 5. sudo apt install libwxgtk3.2-dev wx-common
 
 Create the example program in the terminal with:``g++ -O2 wxBaseTemplateRev3.cpp -o wxBaseTemplateRev3 `wx-config --cxxflags --libs` -lgpiod -lgpiodcxx``
